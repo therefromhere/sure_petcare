@@ -8,7 +8,7 @@ setup(
     author="Rene Castberg",
     author_email="rene@castberg.org",
     license="GPL",
-    install_requires=["requests"],
+    install_requires=["requests", "pydantic"],
     packages=["sure_petcare"],
     scripts=["sp_cli.py"],
     zip_safe=False,
